@@ -13,7 +13,7 @@ const TopScreams = () => {
           <div className="flex gap-2 h-full justify-start items-center">
             <img
               className="w-9 h-9 rounded-sm"
-              src="./src/assets/images/album-cover-6.png"
+              src="/assets/images/album-cover-6.png"
             />
 
             <div className="flex flex-col">

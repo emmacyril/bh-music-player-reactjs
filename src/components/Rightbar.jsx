@@ -46,7 +46,7 @@ const Rightbar = () => {
               <div className="absolute h-full w-full bg-black opacity-60" />
               <img
                 className="rounded-[10px]"
-                src="./src/assets/images/loveworldsingers.jpg"
+                src="/assets/images/loveworldsingers.jpg"
               />
             </div>
           </div>
