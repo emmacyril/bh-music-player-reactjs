@@ -1,6 +1,7 @@
 import React from "react";
 import { Input } from "@mui/material";
 import Bell from "../components/icons/Bell";
+import Cover from "../assets/images/album-cover-6.png";
 
 const Header = () => {
   return (
@@ -36,7 +37,7 @@ const Header = () => {
         <div className="flex justify-center md:justify-end items-center h-full gap-3">
           <Bell />
           <img
-            src="/assets/images/album-cover-6.png"
+            src={Cover}
             className="border-2 border-[#F3777D] w-8 h-8 rounded-full"
           />
           <div className="hidden md:block font-bold text-xs text-white">Raymond</div>

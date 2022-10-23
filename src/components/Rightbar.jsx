@@ -2,6 +2,7 @@ import React from "react";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import TopScreams from "./TopScreams";
+import Cover from "../assets/images/loveworldsingers.jpg";
 
 const Rightbar = () => {
   return (
@@ -46,7 +47,7 @@ const Rightbar = () => {
               <div className="absolute h-full w-full bg-black opacity-60" />
               <img
                 className="rounded-[10px]"
-                src="/assets/images/loveworldsingers.jpg"
+                src={Cover}
               />
             </div>
           </div>

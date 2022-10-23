@@ -1,6 +1,7 @@
 import React from "react";
 import FavoritesSmall from "./icons/FavoritesSmall";
 import Horizonalmorebtn from "./icons/Horizonalmorebtn";
+import Cover from "../assets/images/album-cover-6.png";
 
 const TopScreams = () => {
   return (
@@ -13,7 +14,7 @@ const TopScreams = () => {
           <div className="flex gap-2 h-full justify-start items-center">
             <img
               className="w-9 h-9 rounded-sm"
-              src="/assets/images/album-cover-6.png"
+              src={Cover}
             />
 
             <div className="flex flex-col">

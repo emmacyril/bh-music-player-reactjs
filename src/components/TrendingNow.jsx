@@ -1,4 +1,5 @@
 import React from "react";
+import Cover from "../assets/images/album-cover-6.png";
 
 const TrendingNow = () => {
   return (
@@ -9,7 +10,7 @@ const TrendingNow = () => {
           <span className="flex w-[75%] md:flex-1 gap-4 justify-start md:items-center">
             <img
               className="w-8 h-8 rounded-md"
-              src="/assets/images/album-cover-6.png"
+              src={Cover}
             />
             <div className="text-xs md:text-base">All I Want For Christmas Is You</div>
           </span>
